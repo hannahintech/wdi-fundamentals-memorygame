@@ -1,0 +1,59 @@
+
+
+body {
+	text-align: center;
+}
+
+nav {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+}
+
+.instructions-heading {
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+ 	color: #0D2C40;
+ 	letter-spacing: 1px;
+ 	font-weight: 600;
+ 	font-size: 20;
+}
+
+.instructions-text {
+	font-family: "Droid Serif", serif;
+	line-height: 26px;
+	font-size: 18px;
+}
+
+.my-own-text-heading {
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20;
+}
+
+.my-own-text {
+	font-family: "Droid Serif", serif;
+	line-height: 26px;
+	font-size: 18px;
+}
+
+/* instructions game {
+color: #F15B31;
+letter-spacing: 1px;
+font-weight: 600;
+font-size: 18px;
+}*/
