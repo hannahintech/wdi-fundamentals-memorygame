@@ -2,9 +2,21 @@
 
 body {
 	text-align: center;
+	margin: 0;
 }
 
+header {
+	background-color: #F15B31;
+	color: #ffffff;
+	padding: 30px 20px 30px 20px;
+}
+
+
+
 nav {
+	background-color: #00A6B3;
+	color: #ffffff;
+	padding: 20px 0 20px 0;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 600;
@@ -12,13 +24,29 @@ nav {
 }
 
 a {
+	border-bottom: 2px solid transparent;
+	margin: 0 20px 0 20px;
 	text-decoration: none;
+}
+
+a:hover {
+	border-color: white;
 }
 
 h1 {
 	text-transform: uppercase;
 	font-family: "Raleway", sans-serif;
 	font-weight: 400;
+	margin: 0;
+}
+
+main {
+	width: 850px;
+	margin: 35px auto 35px auto;
+}
+
+img {
+	margin: 40px 8px 40px 8px;
 }
 
 .instructions-heading {
@@ -50,6 +78,44 @@ h1 {
 	line-height: 26px;
 	font-size: 18px;
 }
+
+footer {
+	text-transform: uppercase;
+	padding: 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.copyright {
+	float: left;
+	font-family: "Raleway", sans-serif;
+}
+
+.message {
+	float: right;
+	font-family: "Raleway", sans-serif;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700px;
+}
+
+/*.contact {
+	contact class goes here
+}*/
 
 /* instructions game {
 color: #F15B31;
